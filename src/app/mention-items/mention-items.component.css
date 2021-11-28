@@ -1,0 +1,41 @@
+.mention-item-list {
+  position: absolute;
+  width: 200px;
+  max-height: 190px;
+  overflow: auto;
+  border: 1px solid #ffd6cc;
+  border-radius: 10px;
+}
+
+a {
+  text-decoration: none;
+}
+
+ul {
+  background: #fff;
+  list-style: none;
+  margin: 0;
+  padding-left: 0;
+}
+
+li {
+  color: #000;
+  background: #fff;
+  display: block;
+  padding: 6px;
+  text-decoration: none;
+  transition-duration: 0.5s;
+}
+
+li a {
+  color: #000;
+}
+
+li:hover {
+  background: #cce;
+  cursor: pointer;
+}
+
+li.active {
+  background: #3399ff;
+}
